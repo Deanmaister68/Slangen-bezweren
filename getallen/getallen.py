@@ -1,2 +1,6 @@
-getallen = input()
-print(sorted(getallen))
+print("typ 5 getallen gescheiden door een spatie. Dezen getallen zullen gesorteerd worden.:")
+getallen = list(map(int, input().split()))
+getallen.sort()
+getallen.reverse()
+print("Na het sorteren van dezen getallen:")
+print(*getallen)
