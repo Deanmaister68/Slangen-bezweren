@@ -1,12 +1,14 @@
-import sys 
-
 print("welkom bij de sinterklaas verlanglijst! Hier kunt u cadeau's invullen dat uw op uw verlanlijst wilt. Als u klaar bent typed u KLAAR!")
 
-for i in range(12):
-      cadeau1 = input()
-if cadeau1 == "KLAAR!" :
-        print(cadeau1) 
-        sys.exit()
-else:   print("volgende cadeau")   
+my_list = []
+while True:
+    cadeaus = input('voer cadeau in: ')
+    
+    if cadeaus == 'KLAAR!':
+        print('gebruiker typte KLAAR!')
+        break
 
+    my_list.append(cadeaus)
+my_list.sort()
+print(my_list)
 
