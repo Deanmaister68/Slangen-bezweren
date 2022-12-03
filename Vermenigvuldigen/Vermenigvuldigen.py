@@ -1,0 +1,5 @@
+print("Geef twee getallen op die vermedigvuldig gaan worden")
+getal1 = int(input("Geef een getal op "))
+getal2 = int(input("Geef een getal op "))
+print("Hier alle twee de getallen bij elkaar opgeteld")
+print(getal1 * getal2)
