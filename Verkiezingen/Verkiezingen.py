@@ -5,7 +5,7 @@ while True:
 
     
     if user_input == '':
-        print('User pressed Enter')
+        print('UITSLAG!')
         break
 
     my_list.append(user_input)
